@@ -1,7 +1,7 @@
 *.tgz
-*.dz
-*.idx
 *.gz
 *.dic
 *.dict
 *.bz2
+*.bgl
+*.utf8
