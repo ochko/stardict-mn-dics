@@ -11,12 +11,14 @@ Use dictconv to convert Babylon dictionary to dic format. Stardict-tools is coll
 On debian based systems you can install:
 # sudo apt-get install dictconv stardict-tools
 
+Or you can build the tool from source http://code.google.com/p/stardictproject/
+
 How to make dictionaries
 ========================
 
 # dictconv -o name-of.dic name-of.bgl
 # mon2unicode.sh name-of.dic
-# /usr/lib/stardict-tools/tabfile name-of.dic.unicode
+# /usr/lib/stardict-tools/tabfile name-of.dic.utf8
 
 
-Copyleft (c) 2009 Ochirkhuyag.L
+Copyright &copy; 2009-2012 Ochirkhuyag.L
