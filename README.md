@@ -34,8 +34,8 @@ It'll create 3 files:
 - dictionary.ifo
 - dictionary.idx
 
-You should edit **dictionary.ifo** file to set name of the dictionary. But don't touch lines *wordcount, idxfilesize, sametypesequence*. These are important informations for startdict to understand structure of your dictionary.
-To install new dictionay create new directory under **/usr/share/stardict/dic** and copy 3 files above into new direcrtory.
+You should edit **dictionary.ifo** file to set name of the dictionary. But don't touch lines *wordcount, idxfilesize, sametypesequence*. These are internal info for startdict to understand structure of dictionary file.
+To install built dictionay create a directory under **/usr/share/stardict/dic** and copy 3 files above into new direcrtory.
 
 #How to convert from babylon dictionaries
 -----------------------------------------
@@ -60,7 +60,7 @@ Most old Mongolian dictionary files tend to be in some non-standard encodings. I
 or
 <tt>$ mgl2unicode.sh dictionary.dic</tt>
 
-Then there should be UTF-8 encoded new file <tt>dictionary.dic.utf8</tt>. 
+Then there should be UTF-8 encoded new file <tt>dictionary.dic.utf8</tt>.
 
 <tt>$ /usr/lib/stardict-tools/tabfile dictionary.dic.utf8</tt>
 
@@ -73,4 +73,4 @@ You could edit <tt>dictionary.ifo</tt> file to change some meta info like name o
 #Copyright and License
 ----------------------
 
-Axlsx &copy; 2009-2012 by [Ochirkhuyag.L](mailto:ochkoo@gmail.com). It is licensed under the MIT license.
+&copy; 2009-2012 by [Ochirkhuyag.L](mailto:ochkoo@gmail.com). It is licensed under the MIT license.
